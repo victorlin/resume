@@ -1,4 +1,4 @@
-RESUME:=res9b.tex
+RESUME:=victorlin-resume.tex
 
 resume: $(RESUME)
 	latexmk -pdf $< && latexmk -c $<
